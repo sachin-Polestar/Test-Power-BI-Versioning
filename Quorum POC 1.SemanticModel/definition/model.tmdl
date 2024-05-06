@@ -1,0 +1,25 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["Fact_orderinvoice"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.128.1380.0 (24.04)
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Fact_orderinvoice
+ref table DateTableTemplate_c414bc73-d1c7-4bbe-ba8f-9750d77ecc42
+ref table LocalDateTable_c0448318-9f1d-42f3-8c86-38c994663afe
+ref table LocalDateTable_87967730-50cd-48b6-b0e1-383e614c8d51
+ref table LocalDateTable_9848b5d4-5a35-455c-9e00-71b42e6f4a22
+ref table LocalDateTable_f9106fe3-1c6e-4e44-a4f3-f7d1a7900128
+ref table LocalDateTable_9121bd9b-8ace-4dde-a9e4-56902d251d1d
+ref table LocalDateTable_b0876ec7-c315-450e-80d2-620c8843aa4f
+

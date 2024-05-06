@@ -1,0 +1,30 @@
+relationship 1639e976-0084-4bc1-93a7-acab72d0e749
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Fact_orderinvoice.SF_ContractStartDate
+	toColumn: LocalDateTable_c0448318-9f1d-42f3-8c86-38c994663afe.Date
+
+relationship 555e1334-90a3-424c-a7b7-e52244442265
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Fact_orderinvoice.SF_ContractEndDate
+	toColumn: LocalDateTable_87967730-50cd-48b6-b0e1-383e614c8d51.Date
+
+relationship 479a948c-c874-4ed7-8d11-46cab70bb7a2
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Fact_orderinvoice.NS_BillingScheduleStartDate
+	toColumn: LocalDateTable_9848b5d4-5a35-455c-9e00-71b42e6f4a22.Date
+
+relationship f8dac8cf-6db2-4b15-9145-1a94e8325064
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Fact_orderinvoice.NS_BillingScheduleEndDate
+	toColumn: LocalDateTable_f9106fe3-1c6e-4e44-a4f3-f7d1a7900128.Date
+
+relationship 6953ffca-6c0c-43d6-a6e3-f3c0dc466350
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Fact_orderinvoice.NS_RevenueStartDate
+	toColumn: LocalDateTable_9121bd9b-8ace-4dde-a9e4-56902d251d1d.Date
+
+relationship 7c58fbac-fcd3-4159-98c7-c18c684d0f69
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Fact_orderinvoice.NS_RevenueEndDate
+	toColumn: LocalDateTable_b0876ec7-c315-450e-80d2-620c8843aa4f.Date
+

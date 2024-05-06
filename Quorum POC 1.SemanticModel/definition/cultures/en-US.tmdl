@@ -1,0 +1,116 @@
+culture en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "fact_orderinvoice.sf_order_item_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_orderinvoice",
+			          "ConceptualProperty": "SF_Order_Item_Id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Order Item ID": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_orderinvoice.sf_quote_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_orderinvoice",
+			          "ConceptualProperty": "SF_Quote_Id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Quote ID": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_orderinvoice.sf_quoteline_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_orderinvoice",
+			          "ConceptualProperty": "SF_QuoteLine_Id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Quote line ID": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_orderinvoice.sf_opportunity_product_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_orderinvoice",
+			          "ConceptualProperty": "SF_Opportunity_Product_Id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Opportunity Product ID": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_orderinvoice.sf_sbqq__hasconsumptionschedule__c": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_orderinvoice",
+			          "ConceptualProperty": "SF_SBQQ__HasConsumptionSchedule__c"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Has Consumption Schedule": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Quorum POC 1"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "49d7cf79-e398-4569-8f88-897f91002948"
+  }
+}
